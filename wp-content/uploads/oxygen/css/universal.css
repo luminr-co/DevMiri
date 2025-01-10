@@ -493,7 +493,7 @@ display: flex; flex-direction: row; justify-content: center; align-items: center
 }
 @media (max-width: 991px) {
 .number-strat {
-display: flex; min-width: 32px; min-height:32px; justify-content: center; align-items: center; gap: 10px; border-radius: 100px; background: var(--New-Gradient-1, linear-gradient(69deg, #1061FF 31.39%, #5CCEFF 90.03%)); color: var(--New-White, #FFF); text-align: center; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); font-size: 24px; font-style: normal; font-weight: 600; line-height: normal; z-index:19;
+display: flex; width: 3rem; height: 3rem; padding: 0.75rem; justify-content: center; align-items: center; gap: 0.625rem; flex-shrink: 0; border-radius: 6.25rem; background: #D37AD9;
 }
 }
 
@@ -515,6 +515,7 @@ color: #000; font-family: 'Satoshi'; font-size: 1rem; font-style: normal; font-w
 @media (max-width: 991px) {
 .strat-text {
  text-align:center;
+ margin-top:1rem;
 }
 }
 
@@ -563,6 +564,7 @@ align-items:center;
 color: var(--offwhite); text-align: center; font-size: 1rem; font-style: normal; font-weight: 700; line-height: normal;
 }
 .satoshi {
+color: var(--Primary-White, #FFFDF9); font-size: 1.125rem; font-style: normal; font-weight: 500; line-height: 1.75rem; /* 155.556% */ text-transform: capitalize;
 }
 .footerTitle {
  font-family:'Poppins';
@@ -585,14 +587,44 @@ gap:1rem;
  color:#d37ad9;
 text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25); font-size: 4rem; font-style: normal; font-weight: 400; line-height: normal;
 }
+@media (max-width: 767px) {
+.devmiri-h1 {
+text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25); font-size: 3rem; font-style: normal; font-weight: 400; line-height: normal;
+}
+}
+
+@media (max-width: 479px) {
+.devmiri-h1 {
+ text-align:center;
+}
+}
+
 .style {
 }
 .devmiri-h1-2 {
 text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25); font-size: 4rem; font-style: normal; font-weight: 600; line-height: normal; letter-spacing: 0.2rem; text-transform: uppercase;
 }
+@media (max-width: 767px) {
+.devmiri-h1-2 {
+text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25); font-size: 2rem; font-style: normal; font-weight: 600; line-height: normal; letter-spacing: 0.2rem; text-transform: uppercase;
+}
+}
+
+@media (max-width: 479px) {
+.devmiri-h1-2 {
+ text-align:center;
+}
+}
+
 .devmiri-h3 {
 font-size: 1.125rem; font-style: normal; font-weight: 500; line-height: 1.75rem; /* 155.556% */ text-transform: capitalize;
 }
+@media (max-width: 767px) {
+.devmiri-h3 {
+font-size: 0.125rem; font-style: normal; font-weight: 500; line-height: normal; /* 155.556% */ text-transform: capitalize;
+}
+}
+
 .devmiri-h4 {
 color: #D37AD9; text-align: center; font-size: 3rem; font-style: normal; font-weight: 400; line-height: 3rem; /* 100% */
 }
@@ -602,11 +634,30 @@ color: #3E1541; font-size: 3rem; font-style: normal; font-weight: 600; line-heig
 .change-card {
  background-color:#ffffff;
 }
+@media (max-width: 1120px) {
+.change-card {
+ text-align:center;
+}
+.change-card:not(.ct-section):not(.oxy-easy-posts),
+.change-card.oxy-easy-posts .oxy-posts,
+.change-card.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+}
+
 .change-card-image {
  width:313px;
  object-fit:cover;
  height:auto;
 }
+@media (max-width: 1120px) {
+.change-card-image {
+ width:100%;
+}
+}
+
 .card-text-div {
  width:100%;
  padding-top:1.5rem;
@@ -632,6 +683,129 @@ color: #3E1541; font-size: 1rem; font-style: normal; font-weight: 500; line-heig
  width:72px;
  height:72px;
 }
+@media (max-width: 991px) {
+.process-icon {
+ height:50px;
+ width:50px;
+}
+}
+
+.missionCard:after{
+  content:"";
+}
+.missionCard {
+background-size: cover; background-repeat:no-repeat;
+background-position: center;
+}
+.missionCard:not(.ct-section):not(.oxy-easy-posts),
+.missionCard.oxy-easy-posts .oxy-posts,
+.missionCard.ct-section .ct-section-inner-wrap{
+display:flex;
+}
+@media (max-width: 991px) {
+.missionCard {
+}
+}
+
+.column-c {
+background-image:url(/DevMiri/wp-content/uploads/2025/01/kid1.png);background-size: cover; background-repeat:no-repeat;
+ background-attachment:scroll;
+background-position: center;
+}
+.column:hover{
+}
+.column:after{
+ position:absolute;
+ width:100%;
+ height:100%;
+ background-color:rgba(0,0,0,0.5);
+  content:"";
+}
+.column {
+ position:relative;
+}
+.column:not(.ct-section):not(.oxy-easy-posts),
+.column.oxy-easy-posts .oxy-posts,
+.column.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+@media (max-width: 991px) {
+.column {
+}
+.column:after{
+ border-top-style:solid;
+ border-right-style:solid;
+ border-bottom-style:solid;
+ border-left-style:solid;
+ border-top-width:1px;
+ border-right-width:1px;
+ border-bottom-width:1px;
+ border-left-width:1px;
+ border-top-color:#9d49a3;
+ border-right-color:#9d49a3;
+ border-bottom-color:#9d49a3;
+ border-left-color:#9d49a3;
+ background-color:#3e1541;
+}
+}
+
+.my-inner-div {
+ width:100%;
+ height:100%;
+ z-index:25;
+ padding-left:3.87rem;
+ padding-right:4.63rem;
+ gap:1.5rem;
+}
+.my-inner-div:not(.ct-section):not(.oxy-easy-posts),
+.my-inner-div.oxy-easy-posts .oxy-posts,
+.my-inner-div.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+justify-content:center;
+gap:1.5rem;
+}
+.accordion-2ndLine {
+color: #FFF; text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.30); font-size: 2.5rem; font-style: normal; font-weight: 600; line-height: normal; text-transform: uppercase;
+}
+.accordion-2ndLine:not(.ct-section):not(.oxy-easy-posts),
+.accordion-2ndLine.oxy-easy-posts .oxy-posts,
+.accordion-2ndLine.ct-section .ct-section-inner-wrap{
+display:inline;
+}
+.missionTab-text {
+color: var(--Primary-White, #FFFDF9); font-size: 1.125rem; font-style: normal; font-weight: 500; line-height: 1.75rem; /* 155.556% */ text-transform: capitalize;
+}
+@media (max-width: 767px) {
+.missionTab-text {
+color: var(--Primary-White, #FFFDF9); font-size: 1.125rem; font-style: normal; font-weight: 500; line-height: 1.75rem; /* 155.556% */ text-transform: capitalize;
+}
+}
+
+.inner-elements {
+}
+.inner-element {
+}
+.disable-me-1 {
+}
+.disable-me-1:not(.ct-section):not(.oxy-easy-posts),
+.disable-me-1.oxy-easy-posts .oxy-posts,
+.disable-me-1.ct-section .ct-section-inner-wrap{
+display:flex;
+}
+@media (max-width: 991px) {
+.disable-me-1 {
+}
+.disable-me-1:not(.ct-section):not(.oxy-easy-posts),
+.disable-me-1.oxy-easy-posts .oxy-posts,
+.disable-me-1.ct-section .ct-section-inner-wrap{
+display:flex;
+}
+}
+
 :root {
 --white:#FFF;
 --purple:#9D49A3;
@@ -652,6 +826,9 @@ html {
 body{
   background:var(--grey);
 }
+
+
+
 @font-face {
   font-family: 'ClashGrotesk-Variable';
   src: url("/DevMiri/wp-content/uploads/2025/01/ClashGrotesk-Variable.ttf") format('truetype');
@@ -755,4 +932,74 @@ line-height: normal;
   --wpforms-field-border-radius:0.25rem;
 /*   --wpforms-field-size-input-height:auto; */
   
+}.column {
+    transition: width 0.5s;
+    overflow: hidden;
+    height: 100%;
+    width: 33.33%; /* Default width for all columns */
+    min-width: 0%;
+    flex: 1 1 auto; /* Ensure flexibility */
+    box-sizing: border-box;
+  
 }
+
+.column:hover:after{
+background: rgba(96, 24, 101, 0.60);
+  transition: background 0.2s;
+}
+
+.expanded:hover:after{
+  background:rgba(0,0,0,0.7) !important;
+}
+
+
+/* Desktop over 1024px */
+@media screen and (min-width: 992px) {
+    /* Default layout for all columns */
+    .columns-container {
+        display: flex;
+    }
+
+  
+
+    /* Styling for the expanded column */
+    .column.expanded {
+        width: 50% !important; /* Expanded column takes 50% */
+      position:relative;
+    }
+
+    /* Styling for non-expanded columns */
+    .column:not(.expanded) {
+        width: 25% !important; /* Other columns take 25% each */
+    }
+}
+
+/* Add dark overlay for expanded column */
+.expanded:after {
+    content: '';
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+
+
+
+
+/* Inner elements inside column container styling */
+.inner-element {
+    opacity: 0;
+    transition: opacity 0s;
+    z-index: 2;
+}
+
+/* Inner elements made visible on clicked column */
+.inner-element.active {
+    opacity: 1;
+    transition: opacity 0s 0s;
+}
+
