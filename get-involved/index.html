@@ -51,9 +51,9 @@
 <meta name="msapplication-TileImage" content="/DevMiri/wp-content/uploads/2025/01/favicon-300x300.png">
 <link rel="stylesheet" id="oxygen-cache-46-css" href="/DevMiri/wp-content/uploads/oxygen/css/46.css?cache=1736822893#038;ver=6.7.1" media="all">
 <link rel="stylesheet" id="oxygen-cache-79-css" href="/DevMiri/wp-content/uploads/oxygen/css/79.css?cache=1736840874#038;ver=6.7.1" media="all">
-<link rel="stylesheet" id="oxygen-cache-11-css" href="/DevMiri/wp-content/uploads/oxygen/css/11.css?cache=1736841585#038;ver=6.7.1" media="all">
-<link rel="stylesheet" id="oxygen-cache-53-css" href="/DevMiri/wp-content/uploads/oxygen/css/53.css?cache=1736263642#038;ver=6.7.1" media="all">
-<link rel="stylesheet" id="oxygen-universal-styles-css" href="/DevMiri/wp-content/uploads/oxygen/css/universal.css?cache=1736941865#038;ver=6.7.1" media="all">
+<link rel="stylesheet" id="oxygen-cache-11-css" href="/DevMiri/wp-content/uploads/oxygen/css/11.css?cache=1736945784#038;ver=6.7.1" media="all">
+<link rel="stylesheet" id="oxygen-cache-53-css" href="/DevMiri/wp-content/uploads/oxygen/css/53.css?cache=1737125443#038;ver=6.7.1" media="all">
+<link rel="stylesheet" id="oxygen-universal-styles-css" href="/DevMiri/wp-content/uploads/oxygen/css/universal.css?cache=1737125443#038;ver=6.7.1" media="all">
 <style id="wpforms-css-vars-root">:root {
 					--wpforms-field-border-radius: 3px;
 --wpforms-field-border-style: solid;
@@ -112,7 +112,7 @@
 
 
 
-						<div id="div_block-2-11" class="ct-div-block fullwidth"><div id="div_block-6-11" class="ct-div-block circumcisedBlock"><div id="div_block-7-11" class="ct-div-block">
+						<div id="custom-header-1" class="ct-div-block fullwidth"><div id="div_block-6-11" class="ct-div-block circumcisedBlock"><div id="div_block-7-11" class="ct-div-block">
 <a id="link-21-11" class="ct-link" href="/DevMiri/"><img id="image-9-11" alt="" src="/DevMiri/wp-content/uploads/2025/01/Logo.svg" class="ct-image navbarLogo" sizes="(max-width: 85px) 100vw, 85px"></a><div id="div_block-86-11" class="ct-div-block">
 <div id="code_block-87-11" class="ct-code-block"><!-- --></div>
 <div id="div_block-89-11" class="ct-div-block"><img id="image-90-11" alt="" src="/DevMiri/wp-content/uploads/2025/01/hamburger-Icon.svg" class="ct-image" sizes="(max-width: 20px) 100vw, 20px" onclick="openNav()"></div>
@@ -133,58 +133,140 @@
 <a id="div_block-12-11" class="ct-link" href="#contact-us"><div id="text_block-14-11" class="ct-text-block clash">Contact Us</div></a>
 </div>
 </div></div></div>
-<div id="inner_content-4-11" class="ct-inner-content"><div id="div_block-2-53" class="ct-div-block fullwidth"><div id="div_block-3-53" class="ct-div-block circumcisedBlock"><div id="div_block-4-53" class="ct-div-block"><div id="code_block-8-53" class="ct-code-block">  <div class="form-container">
-    <h2>Fill the Form</h2>
-    <form id="custom-form" method="POST">
-      <!-- Area of Interest -->
-      <div class="form-group">
-        <label>Area of Interest</label>
-        <div class="form-group-radio">
-          <label><input type="radio" name="interest" value="Donate" checked> Donate</label>
-          <label><input type="radio" name="interest" value="Mentor"> Mentor</label>
-          <label><input type="radio" name="interest" value="Volunteer"> Volunteer</label>
-          <label><input type="radio" name="interest" value="Corporate Partnership"> Corporate Partnership</label>
+<div id="inner_content-4-11" class="ct-inner-content">
+<div id="div_block-2-53" class="ct-div-block fullwidth"><div id="div_block-3-53" class="ct-div-block circumcisedBlock"><div id="code_block-9-53" class="ct-code-block"> <div class="my-form">
+      <p class="my-form__title">Fill the Form</p>
+      <form action="">
+        <div class="text__field">
+          <div class="my-label">
+            <label for="fname">First name*</label>
+            <input class="my-textInput" type="text" id="fname" name="fname">
+          </div>
+          <div class="my-label">
+            <label for="lname">Last name*</label>
+            <input class="my-textInput" type="text" id="lname" name="lname">
+          </div>
         </div>
-      </div>
-
-      <!-- Divider -->
-      <div class="divider"></div>
-
-      <!-- Dynamic Sections -->
-      <div id="donate-section" class="dynamic-section active">
-        <p><strong>Donate Section:</strong> Please provide details about your donation amount and cause.</p>
-        <label for="donation-amount">Donation Amount*</label>
-        <input type="number" id="donation-amount" name="donation_amount" required>
-      </div>
-
-      <div id="mentor-section" class="dynamic-section">
-        <p><strong>Mentor Section:</strong> Share your area of expertise and availability.</p>
-        <label for="expertise">Area of Expertise*</label>
-        <input type="text" id="expertise" name="expertise" required>
-        <label for="availability">Availability*</label>
-        <input type="text" id="availability" name="availability" required>
-      </div>
-
-      <div id="volunteer-section" class="dynamic-section">
-        <p><strong>Volunteer Section:</strong> Provide details about the type of volunteer work you wish to do.</p>
-        <label for="volunteer-work">Type of Volunteer Work*</label>
-        <input type="text" id="volunteer-work" name="volunteer_work" required>
-      </div>
-
-      <div id="corporate-section" class="dynamic-section">
-        <p><strong>Corporate Partnership Section:</strong> Share the type of partnership you are interested in.</p>
-        <label for="partnership-details">Partnership Details*</label>
-        <textarea id="partnership-details" name="partnership_details" rows="3" required></textarea>
-      </div>
-
-      <!-- Divider -->
-      <div class="divider"></div>
-
-      <!-- Submit Button -->
-      <button type="submit" class="submit-btn">Submit Form</button>
-    </form>
-  </div>
-</div></div></div></div></div>
+  
+        <!-- second row  -->
+  
+        <div class="text__field">
+          <div class="my-label">
+            <label for="phone">Phone Number*</label>
+            <input class="my-textInput" type="text" id="phone" name="phone">
+          </div>
+          <div class="my-label">
+            <label for="email">Email*</label>
+            <input class="my-textInput" type="text" id="email" name="email">
+          </div>
+        </div>
+  
+        <!-- third row  -->
+  
+        <div class="text__field">
+          <div class="my-label">
+            <label for="cname">Company Name</label>
+            <input class="my-textInput" type="text" id="cname" name="cname">
+          </div>
+        </div>
+  
+        <!-- fourth row -->
+  
+        <div class="radio__buttons">
+          <div class="radio__labels">
+            <label for="donate">
+              <input type="radio" name="interest" id="donate" value="donate" checked>
+              donate
+            </label>
+          </div>
+          <div class="radio__labels">
+            <label for="mentor">
+              <input type="radio" name="interest" id="mentor" value="mentor">
+              mentor
+            </label>
+          </div>
+          <div class="radio__labels">
+            <label for="volunteer">
+              <input type="radio" name="interest" id="volunteer" value="volunteer">
+              volunteer
+            </label>
+          </div>
+          <div class="radio__labels">
+            <label for="corporate">
+              <input type="radio" name="interest" id="corporate" value="corporate">
+              corporate partnership
+            </label>
+          </div>
+        </div>
+  
+        <!-- Conditional Fields -->
+        <div class="conditional__fields">
+          <!-- Donate Section -->
+          <div class="conditional__donate">
+            <div class="text__field">
+              <div class="my-label">
+                <label for="donation-amount">Preferred Donation Amount*</label>
+                <input class="my-textInput" type="text" id="donation-amount" name="donation-amount">
+              </div>
+            </div>
+            <p>Donation Type*</p>
+            <div class="radio__buttons">
+              <div class="radio__labels">
+                <label for="one-time-donation">
+                  <input type="radio" name="prefered-donation-type" id="one-time-donation" value="one-time-donation">
+                  One-time Donation
+                </label>
+              </div>
+              <div class="radio__labels">
+                <label for="recurring-donation">
+                  <input type="radio" name="prefered-donation-type" id="recurring-donation" value="recurring-donation">
+                  Recurring Donation
+                </label>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Mentor Section -->
+          <div class="conditional__mentor">
+            <div class="text__field">
+              <div class="my-label">
+                <label for="expertise">Field of Expertise*</label>
+                <input class="my-textInput" type="text" id="expertise" name="expertise">
+              </div>
+            </div>
+            <div class="text__field">
+              <div class="my-label">
+                <label for="mentorship-age-group">Age/Group you'd like to mentor</label>
+                <input class="my-textInput" type="text" id="mentorship-age-group" name="mentorship-age-group">
+              </div>
+            </div>
+          </div>
+  
+          <!-- Volunteer Section -->
+          <div class="conditional__volunteer">
+            <div class="text__field">
+              <div class="my-label">
+                <label for="volunteer-time">Preferred Volunteering Time*</label>
+                <input class="my-textInput" type="text" id="volunteer-time" name="volunteer-time">
+              </div>
+            </div>
+          </div>
+  
+          <!-- Corporate Partnership Section -->
+          <div class="conditional__corporate">
+            <div class="text__field">
+              <div class="my-label">
+                <label for="corporate-goal">Corporate Partnership Goals*</label>
+                <input class="my-textInput" type="text" id="corporate-goal" name="corporate-goal">
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+</div></div></div>
+<div id="code_block-10-53" class="ct-code-block"><!-- --></div>
+</div>
 <div id="div_block-3-11" class="ct-div-block fullwidth">
 <div id="div_block-22-11" class="ct-div-block circumcisedBlock"><div id="div_block-23-11" class="ct-div-block">
 <div id="div_block-25-11" class="ct-div-block">
@@ -206,7 +288,7 @@
 </div>
 <div id="footer-form" class="ct-div-block"><div id="widget-85-11" class="ct-widget"><div class="widget wpforms-widget">
 <h2 class="widgettitle">Connect With Us</h2>
-<div class="wpforms-container wpforms-container-full wpforms-render-modern" id="wpforms-47"><form id="wpforms-form-47" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="47" method="post" enctype="multipart/form-data" action="/get-involved/?simply_static_page=390" data-token="0630f0090056d6e78ae1fa3c34f58466" data-token-time="1736943056">
+<div class="wpforms-container wpforms-container-full wpforms-render-modern" id="wpforms-47"><form id="wpforms-form-47" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="47" method="post" enctype="multipart/form-data" action="/get-involved/?simply_static_page=532" data-token="64c86259d15f4d1b71bf50232d29bed8" data-token-time="1737126166">
 <div class="wpforms-head-container"><div class="wpforms-description">Have questions or ideas? We’re here to help. Reach out to explore how you can contribute, collaborate, or make an impact with us.</div></div>
 <noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
 <div class="wpforms-hidden" id="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</div>
@@ -214,7 +296,7 @@
 <div id="wpforms-47-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1">
 <label class="wpforms-field-label wpforms-label-hide" for="wpforms-47-field_1" aria-hidden="false">Enter Your Email <span class="wpforms-required-label" aria-hidden="true">*</span></label><input type="email" id="wpforms-47-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" placeholder="Enter Your Email" spellcheck="false" aria-errormessage="wpforms-47-field_1-error" required>
 </div>		<div id="wpforms-47-field_3-container" class="wpforms-field wpforms-field-text" data-field-type="text" data-field-id="3">
-			<label class="wpforms-field-label" for="wpforms-47-field_3">Email Enter Write</label>
+			<label class="wpforms-field-label" for="wpforms-47-field_3">Enter Message... Email</label>
 			<input type="text" id="wpforms-47-field_3" class="wpforms-field-medium" name="wpforms[fields][3]">
 		</div>
 		<div id="wpforms-47-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2">
@@ -228,7 +310,7 @@
 				} )();</script>
 </div>
 <!-- .wpforms-field-container --><div class="wpforms-submit-container">
-<input type="hidden" name="wpforms[id]" value="47"><input type="hidden" name="page_title" value="Get Involved"><input type="hidden" name="page_url" value="http://devmiri.local/get-involved/?simply_static_page=390"><input type="hidden" name="page_id" value="53"><input type="hidden" name="wpforms[post_id]" value="53"><button type="submit" name="wpforms[submit]" id="wpforms-submit-47" class="wpforms-submit" data-alt-text="Sending..." data-submit-text="Contact Us" aria-live="assertive" value="wpforms-submit">Contact Us</button><img src="/DevMiri/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading">
+<input type="hidden" name="wpforms[id]" value="47"><input type="hidden" name="page_title" value="Get Involved"><input type="hidden" name="page_url" value="http://devmiri.local/get-involved/?simply_static_page=532"><input type="hidden" name="page_id" value="53"><input type="hidden" name="wpforms[post_id]" value="53"><button type="submit" name="wpforms[submit]" id="wpforms-submit-47" class="wpforms-submit" data-alt-text="Sending..." data-submit-text="Contact Us" aria-live="assertive" value="wpforms-submit">Contact Us</button><img src="/DevMiri/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading">
 </div>
 </form></div>  <!-- .wpforms-container -->
 </div></div></div>
@@ -370,61 +452,159 @@ function closeNav() {
     right: 35px;
   }
 }</style>
-<script type="text/javascript" id="ct_code_block_js_8">const radioButtons = document.querySelectorAll('input[name="interest"]');
-    const sections = {
-      Donate: document.getElementById('donate-section'),
-      Mentor: document.getElementById('mentor-section'),
-      Volunteer: document.getElementById('volunteer-section'),
-      "Corporate Partnership": document.getElementById('corporate-section')
-    };
-
-    radioButtons.forEach(radio => {
-      radio.addEventListener('change', () => {
-        // Hide all sections
-        Object.values(sections).forEach(section => section.classList.remove('active'));
-
-        // Show the selected section
-        const selectedValue = radio.value;
-        sections[selectedValue].classList.add('active');
+<script type="text/javascript" id="ct_code_block_js_9">document.addEventListener("DOMContentLoaded", () => {
+      const interestRadios = document.querySelectorAll('input[name="interest"]');
+      const sections = {
+        donate: document.querySelector(".conditional__donate"),
+        mentor: document.querySelector(".conditional__mentor"),
+        volunteer: document.querySelector(".conditional__volunteer"),
+        corporate: document.querySelector(".conditional__corporate"),
+      };
+    
+      function hideAllSections() {
+        Object.values(sections).forEach((section) => {
+          if (section) {
+            section.style.display = "none";
+          }
+        });
+      }
+    
+      function showDefaultSelection() {
+        const defaultSection = sections["donate"];
+        if (defaultSection) {
+          defaultSection.style.display = "block";
+        }
+      }
+    
+      interestRadios.forEach((radio) => {
+        radio.addEventListener("change", () => {
+          hideAllSections();
+          const selectedSection = sections[radio.value];
+          if (selectedSection) {
+            selectedSection.style.display = "block";
+          }
+        });
       });
+    
+      // Initialize the form
+      hideAllSections();
+      showDefaultSelection(); // Show the default "donate" section
     });</script>
-<style type="text/css" id="ct_code_block_css_8">.form-container {
-      background: white;
-      padding: 20px 30px;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      width: 600px;
-    }
+<style type="text/css" id="ct_code_block_css_9">.my-form {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
 
-    .divider {
-      height: 1px;
-      background-color: #6b2b91;
-      margin: 15px 0;
-    }
+      .my-form form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
 
-    .dynamic-section {
-      display: none;
-    }
+      .my-form__title {
+        color: #9d49a3;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
 
-    .dynamic-section.active {
-      display: block;
-    }
+      .my-form__label {
+        color: var(--Primary-Black, #211f1d);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2rem;
+      }
 
-    .submit-btn {
-      display: block;
-      width: 100%;
-      padding: 10px 0;
-      background-color: #6b2b91;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      font-size: 16px;
-      cursor: pointer;
-    }
+      .my-form__radio {
+        color: var(--Primary-Black, #211f1d);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2rem; /* 200% */
+      }
 
-    .submit-btn:hover {
-      background-color: #581b70;
-    }</style>
+      .my-form__checkbox {
+        color: #3e1541;
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 2rem; /* 200% */
+      }
+
+      .text__field {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+      }
+
+      .my-label {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .my-label label {
+        color: var(--Primary-Black, #211f1d);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2rem;
+      }
+
+      input.my-textInput {
+        all: unset;
+        box-sizing: border-box;
+        display: flex;
+        height: 3.125rem;
+        padding: 0.75rem 1.25rem;
+        align-items: center;
+        gap: 0.625rem;
+        align-self: stretch;
+        border-radius: 0.25rem;
+        background: #f0f0f0;
+      }
+
+      .conditional__fields {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-top: 1px solid #3e1541;
+        border-bottom: 1px solid #3e1541;
+        min-height: 10rem;
+        width: 100%;
+      }
+
+      .radio__buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 1.69rem;
+      }
+
+      .radio__buttons input[type="radio"]{
+      accent-color: #3E1541;
+      }</style>
+<script type="text/javascript" id="ct_code_block_js_10">document.addEventListener("DOMContentLoaded", () => {
+    const header = document.getElementById("custom-header-1");
+    const currentPage = window.location.pathname; // Get the current page path
+    const navLinks = document.querySelectorAll(".navLinks");
+      const image = document.getElementById("image-9-11");
+    const hamburger = document.getElementById("image-90-11");
+    
+    if (currentPage === "/get-involved/") {
+      image.src = "/DevMiri/wp-content/uploads/2025/01/DevMiri-purple.svg";
+        header.style.background = "white";
+        header.style.backdropFilter = "none";
+      hamburger.src = "/DevMiri/wp-content/uploads/2025/01/quill_hamburger.svg";
+      console.log(navLinks);
+        navLinks.forEach(link => {
+            link.style.color = "#3E1541";
+        });
+    }
+});</script>
 <!-- /WP_FOOTER --> 
 </body>
 </html>
