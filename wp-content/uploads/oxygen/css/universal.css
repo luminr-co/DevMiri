@@ -775,7 +775,7 @@ display:flex;
 }
 
 .column-c {
-background-image:url(/DevMiri/wp-content/uploads/2025/01/kid1.png);background-size: cover; background-repeat:no-repeat;
+background-image:url(/wp-content/uploads/2025/01/kid1.png);background-size: cover; background-repeat:no-repeat;
  background-attachment:scroll;
 background-position: center;
 }
@@ -909,7 +909,7 @@ body{
 
 @font-face {
   font-family: 'ClashGrotesk-Variable';
-  src: url("/DevMiri/wp-content/uploads/2025/01/ClashGrotesk-Variable.ttf") format('truetype');
+  src: url("/wp-content/uploads/2025/01/ClashGrotesk-Variable.ttf") format('truetype');
   font-weight: 200 700;
   font-display: swap;
   font-style: normal;
@@ -917,7 +917,7 @@ body{
 
 @font-face {
   font-family: 'Satoshi';
-  src: url('/DevMiri/wp-content/uploads/2025/01/Satoshi-Variable.ttf') format('truetype');
+  src: url('/wp-content/uploads/2025/01/Satoshi-Variable.ttf') format('truetype');
   font-weight: 200 700;
   font-display: swap;
   font-style: normal;
@@ -925,7 +925,7 @@ body{
 
 @font-face {
   font-family: 'StyleScript';
-  src: url('/DevMiri/wp-content/uploads/2025/01/StyleScript-Regular.ttf') format('truetype');
+  src: url('/wp-content/uploads/2025/01/StyleScript-Regular.ttf') format('truetype');
   font-weight: 200 700;
   font-display: swap;
   font-style: normal;
